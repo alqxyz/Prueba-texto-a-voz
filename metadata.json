@@ -1,0 +1,7 @@
+{
+  "name": "Zona XC - Nuevo Capítulo",
+  "description": "Plataforma de audio, crónicas y capítulos de Cross-Country con narración TTS usando Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

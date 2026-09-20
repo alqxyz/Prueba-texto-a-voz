@@ -1,0 +1,72 @@
+import { Chapter } from "../types";
+
+export const INITIAL_CHAPTERS: Chapter[] = [
+  {
+    id: "cap-01",
+    chapterNumber: 1,
+    title: "Capítulo 1: El Ataque en el Rock Garden de Nové Město",
+    subtitle: "Crónica de la última vuelta en el templo del XCO mundial",
+    category: "Copa del Mundo XCO",
+    script:
+      "¡Bienvenidos a Zona XC! Estamos en la última vuelta del circuito más despiadado de Bohemia Central. El líder entra con apenas tres segundos de margen al infame Rock Garden. Bloqueo de suspensión desactivado, tija telescópica abajo, sesenta pulsaciones por encima del umbral anaeróbico. Las raíces mojadas no perdonan, pero la trazada exterior le permite traccionar con 1.3 bares en la rueda trasera. ¡Acelera a más de setecientos vatios en la recta final y cruza la meta exhausto! Esto es puro Cross-Country.",
+    voiceName: "Fenrir",
+    mode: "single",
+    createdAt: "2026-09-18",
+    durationLabel: "45 seg",
+    tags: ["XCO", "Nové Město", "Copa del Mundo", "Rock Garden"],
+    courseLocation: "República Checa",
+    isCustom: false,
+  },
+  {
+    id: "cap-02",
+    chapterNumber: 2,
+    title: "Capítulo 2: El Dilema de Presiones: ¿1.2 o 1.4 Bares?",
+    subtitle: "Dial de rebote, inserciones de espuma y agarre en trialera",
+    category: "Técnica & Setup",
+    script:
+      "Marc: En Zona XC hoy destripamos el eterno debate: ¿cuánta presión meterle a tus cubiertas de 2.4 pulgadas?\nElena: Muchos corredores cometen el error de sobrepresionar por miedo a destalonar. Con llantas de garganta ancha de treinta milímetros y un protector de espuma ligero, rodar a uno punto dos bares en terreno seco te entrega hasta un veinte por ciento más de huella de contacto en curvas ciegas.\nMarc: Y menos rebote parásito en subidas rotas donde cada vatio cuenta.",
+    voiceName: "Kore",
+    mode: "multi",
+    speakers: [
+      { speaker: "Marc", voice: "Fenrir" },
+      { speaker: "Elena", voice: "Kore" },
+    ],
+    createdAt: "2026-09-15",
+    durationLabel: "50 seg",
+    tags: ["Tubeless", "Presiones", "Setup", "Neumáticos"],
+    courseLocation: "Taller Zona XC",
+    isCustom: false,
+  },
+  {
+    id: "cap-03",
+    chapterNumber: 3,
+    title: "Capítulo 3: Descenso de la Serpiente en Val di Sole",
+    subtitle: "Raíces inclinadas, polvo negro y control de freno al límite",
+    category: "Rutas & Desafíos",
+    script:
+      "Val di Sole no es para tímidos. Aquí el polvo fino cubre surcos invisibles que devoran llantas de carbono si descuidas la línea. La clave en este capítulo de Zona XC está en la modulación de frenos: nunca frenar sobre la raíz expuesta; deja correr la bicicleta, confía en el ángulo de dirección relajado de sesenta y seis grados y mantén el peso centrado sobre los pedales. Siente cómo la tierra se desliza bajo tus tacos.",
+    voiceName: "Puck",
+    mode: "single",
+    createdAt: "2026-09-10",
+    durationLabel: "40 seg",
+    tags: ["Val di Sole", "Trialera", "Descenso", "Control"],
+    courseLocation: "Trentino, Italia",
+    isCustom: false,
+  },
+  {
+    id: "cap-04",
+    chapterNumber: 4,
+    title: "Capítulo 4: Series Explosivas en Repechos del 18%",
+    subtitle: "Cómo construir el motor para los primeros 3 minutos de carrera",
+    category: "Entrenamiento & Vatios",
+    script:
+      "En una largada de Cross-Country moderno, quien no aguanta cuatrocientos cincuenta vatios durante los primeros trescientos metros queda atrapado en el embudo del singletrack. En este capítulo analizamos el entrenamiento de intervalos de cuarenta segundos a tope con veinte segundos de recuperación activa. El lactato quema los cuádriceps, pero la memoria muscular te mantendrá pedaleando redondo.",
+    voiceName: "Zephyr",
+    mode: "single",
+    createdAt: "2026-09-05",
+    durationLabel: "40 seg",
+    tags: ["Vatios", "Intervalos", "Fisiología", "Salida XCO"],
+    courseLocation: "Circuito de Entrenamiento",
+    isCustom: false,
+  },
+];
